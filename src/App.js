@@ -5,7 +5,7 @@ import SideNav from "./SideNav";
 function App() {
   return (
     <div className="App">
-      <SideNav></SideNav>
+      <SideNav>Hey</SideNav>
     </div>
   );
 }
