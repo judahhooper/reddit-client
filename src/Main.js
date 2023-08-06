@@ -7,7 +7,7 @@ export default function Main () {
     return (
         <div className="main">
             <Header/>
-            <Posts/>
+        
         </div>
     )
 }
