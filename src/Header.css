@@ -1,0 +1,46 @@
+.header { 
+    font-size: small;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.5em 0 2.5em;
+}
+
+.header-left ul {
+    display: flex;
+    align-items: center;
+}
+
+.header-left li a {
+    padding: 10px;
+    color: #808080;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header-left a.active {
+    color: #fd4500;
+    border-bottom: 2px solid #fd4500;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-right > * {
+    width: 25px;
+    border-radius: 50%;
+}
+
+.header-right > i {
+    font-size: medium;
+    color: #808080;
+}
+
+.header-right > .header-right > span {
+    margin-right: 10px;
+}

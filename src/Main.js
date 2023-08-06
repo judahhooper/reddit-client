@@ -1,12 +1,13 @@
 import React from "react";
 import Header from './Header';
-
+import './Main.css';
+import Posts from './Posts';
 
 export default function Main () {
     return (
-        <div>
+        <div className="main">
             <Header/>
-            here goes post components
+            <Posts/>
         </div>
     )
 }
