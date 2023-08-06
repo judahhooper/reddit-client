@@ -1,7 +1,12 @@
 import React from "react";
+import Header from './Header';
+
 
 export default function Main () {
     return (
-        <div>This is Main</div>
+        <div>
+            <Header/>
+            here goes post components
+        </div>
     )
 }
