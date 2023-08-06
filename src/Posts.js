@@ -1,9 +1,10 @@
 import React from "react";
 import PostItem from "./PostItem"
+import './Posts.css';
 
 export default function Posts () {
     const posts = [
-        { upvotes: '634', image: '', title:'lorem', user: 'user1', subreddit:'example', commentcounts: '221'}
+        { upvotes: '634', image: 'https://images.pexels.com/photos/147411/italy-mountains-dawn-daybreak-147411.jpeg', title:'lorem', user: 'user1', subreddit:'example', commentcount: '221'}
     ]
     return(
         <div className="posts">
