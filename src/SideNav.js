@@ -39,7 +39,7 @@ export default function SideNav() {
                 <hr />
                 <ul className="sidenav_subreddit">
                     {subreddits.map(subreddit=>(
-                    <li><a href={`/r/${subreddit}`}>${subreddit}</a></li>
+                    <li><a href={`/r/${subreddit}`}>{subreddit}</a></li>
                     ))}
                 </ul>
             </div>
