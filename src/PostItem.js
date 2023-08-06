@@ -10,7 +10,7 @@ export default function PostItem (props) {
             <div className="postcenter"><img src={image} alt=""/></div>
             <div className="postright">
                 <h3><a href={`/r/${subreddit}/${title}`}>{title}</a></h3>
-                <span className="post-info">submitted sometime ago by <a href={`/u/${user}`}>{user}</a> to <a href={`/u/${subreddit}`}>{subreddit} </a></span>
+                <span className="post-info">submitted sometime ago by {' '} <a href={`/u/${user}`}>{user}</a> {' '} to {' '}<a href={`/u/${subreddit}`}>{subreddit} </a></span>
                 <p className="post-info">
                     {commentcount} comments | share | save | hide | report
                 </p>

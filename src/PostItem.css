@@ -5,6 +5,7 @@
 }
 .post a {
     text-decoration: none;
+    color: #464855;
 }
 .postleft {
     width: 50px;
@@ -39,4 +40,16 @@
     padding: 5px 0;
 }
 
-.postright > .post-info
+.postright > .post-info {
+    font-size: smaller;
+    color: grey;
+
+}
+
+.postright > * {
+    margin-bottom: 2px;
+}
+
+p.post-info {
+    margin-top: 4px;
+}
