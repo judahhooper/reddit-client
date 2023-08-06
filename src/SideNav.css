@@ -1,0 +1,23 @@
+.sidenav {
+    width: 200px;
+    font-size: small;
+    box-shadow: 2px 0px 1px 1px #f4f4f4;
+
+}
+
+.sidenav_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sidenav_logo > img {
+    width:  60%;
+    margin: 10px 0;
+}
+
+.sidenav_search {
+    margin: 2em 0;
+}
+
+{}
